@@ -13,7 +13,7 @@ import Reports from "./pages/Reports";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/milk-dairy-management">
       <Navbar />
 
       <Routes>
